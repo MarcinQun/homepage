@@ -1,0 +1,19 @@
+body {
+    background: #140202;
+    color:rgb(255, 0, 0)
+}
+
+.mainHeader {
+    color: tomato;
+}
+
+p {
+    color: rgb(116, 188, 49);
+}
+
+.sectionHeader {
+    color: #1460aa;
+    font-size: 64px;
+    background-color: black;
+}
+
