@@ -1,19 +1,63 @@
+
 body {
-    background: #140202;
-    color:rgb(255, 0, 0)
+    background: #14110f;
+    color: #d9c5b2;
 }
 
 .mainHeader {
-    color: tomato;
+    color: #d9c5b2;
 }
 
 p {
-    color: rgb(116, 188, 49);
+    color: #f3f3f4;
 }
 
-.sectionHeader {
-    color: #1460aa;
+.about__sectionHeader {
+    color: #d9c5b2;
     font-size: 64px;
-    background-color: black;
+
 }
 
+.about {
+    width: 100%;
+    max-width: 700px;
+
+}
+
+.paragraph {
+    padding: 0 0 0 16px;
+ 
+}
+
+.main {
+
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: #271607;
+}
+
+.navigation {
+    position: top;
+width: 100%;
+
+    top: 16px;
+    box-sizing: border-box;
+    padding: 10px;
+   
+    
+
+}
+
+.about__SectionHeader__Picture {
+    width: 200%;
+    max-width: 200px;
+    display: block;
+    float: left;
+    margin: 16px 16px 16px 16px;
+}
