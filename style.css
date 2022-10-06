@@ -1,3 +1,17 @@
+.body {
+    background: #4e4b2c;
+
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+
+    box-sizing: inherit;
+}
+
 
 body {
     background: #14110f;
@@ -26,7 +40,7 @@ p {
 
 .paragraph {
     padding: 0 0 0 16px;
- 
+
 }
 
 .main {
@@ -42,17 +56,11 @@ p {
     background: #271607;
 }
 
-.navigation {
-    position: top;
-width: 100%;
-
-    top: 16px;
-    box-sizing: border-box;
-    padding: 10px;
-   
-    
-
+.header {
+    background: #d9c5b2;
 }
+
+
 
 .about__SectionHeader__Picture {
     width: 200%;
@@ -60,4 +68,47 @@ width: 100%;
     display: block;
     float: left;
     margin: 16px 16px 16px 16px;
+}
+
+
+
+.list {
+
+    list-style: upper-roman;
+
+}
+
+.table {
+    width: 100%;
+}
+
+.menu {
+    color: rgb(255, 0, 0)
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+
+    .navigation {
+
+
+        position: top;
+        width: 100%;
+    
+        top: 16px;
+        box-sizing: border-box;
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        height: 100%;
+        align-items: center;
+    }
 }

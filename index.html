@@ -6,17 +6,18 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Strona główna</title>
+	<link href="normalizecss.css" rel="stylesheet" type="text/css">
 	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body class="body">
 
 	<header id="top" class="navigation">
 
-		<a href="index.html">Strona główna</a>
-		<a href="Zawody.html">Zawody</a>
-		<a href="strzelectwosportowe.html">Strzelectwo Sportowe</a>
-		<a href="kolekcja.html">Kolekcja Broni</a>
+		<a  href="index.html">Strona główna</a>
+		<a  href="Zawody.html">Zawody</a>
+		<a  href="strzelectwosportowe.html">Strzelectwo Sportowe</a>
+		<a  href="kolekcja.html">Kolekcja Broni</a>
 
 	</header>
 	<main class="main">
@@ -31,7 +32,7 @@
 		<section class="about">
 
 			<h2 class="about__sectionHeader">Kim jestem?</h2>
-			<img src="Marcin strzelnica.jpg" alt="Zdjęcie strzelca" class= "about__SectionHeader__Picture"/>
+			<img src="Marcin strzelnica.jpg" alt="Zdjęcie strzelca" class="about__SectionHeader__Picture" />
 			<p class="paragraph"> nauka programowania może poszerzyć Twoje horyzonty, i oby to sie udało. <br>
 				Na co dzień jestem AP accountant, i to sie powoli już zaczyna robić trochę nudne
 
@@ -71,6 +72,55 @@
 			</Section>
 
 		</section>
+
+		<section>
+			<h4> Lista fajnych znaczników</h4>
+			<ul clas="list">
+				<li>UL</li>
+				<li>OL</li>
+				<li>section</li>
+			</ul>
+
+			<h4> Lista fajnych liczb</h4>
+			<ol>
+				<li class=" list item">jeden</li>
+				<li class=" list item">dwa</li>
+				<li class=" list item">trzy</li>
+			</ol>
+		</section>
+
+		<section>
+
+			<h4>Tabela</h4>
+
+			<table class="table">
+				<caption>jakiś spis</caption>
+				<thead>
+					<tr>
+						<th>lp</th>
+						<th>spis</th>
+						<th>coś tam jeszcze</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1.</td>
+						<td>pierwsza wartość</td>
+						<td>druga wartość</td>
+
+					</tr>
+				</tbody>
+			</table>
+		</section>
+
+		<form>
+			<p>
+				<label>
+					Postal <Code><input name="postalCode" pattern="[0-9 {2}\-[0-9]{3}">
+				</label>
+			</p>
+<p><input></p>
+		</form>
 
 
 
