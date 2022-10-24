@@ -1,0 +1,26 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "sass": "npx node-sass -w scss/style.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcinQun/homepage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcinQun/homepage/issues"
+  },
+  "homepage": "https://github.com/MarcinQun/homepage#readme",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
+  },
+  "description": ""
+}
